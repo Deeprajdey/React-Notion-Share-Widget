@@ -1,0 +1,52 @@
+.MembersBox__form,
+.MembersBox__form-clicked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.MembersBox__form > input,
+.MembersBox__form-clicked > input {
+  padding: 2rem;
+  padding-right: 30rem;
+  width: 90%;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 2rem;
+  color: #868e96;
+}
+.MembersBox__form-clicked > input {
+  border: none;
+  background-color: #e9ecef;
+}
+.MembersBox__form > input:focus,
+.MembersBox__form-clicked > input:focus {
+  outline: 2px solid #74c0fc;
+}
+.MembersBox__form > button,
+.MembersBox__form-clicked > button {
+  padding: 2rem;
+  border: 1px solid #d1d5db;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #f9fafb;
+  font-size: 2rem;
+  margin-left: -9rem;
+}
+.MembersBox__form-clicked > button {
+  margin-left: 6rem;
+}
+.MembersBox__form-clicked > button {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.MembersBox__form > input::placeholder {
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+  color: #868e96;
+}
+.MembersBox__form-clicked .MembersAccess {
+  margin-left: -27rem;
+}
