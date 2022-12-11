@@ -1,0 +1,24 @@
+.SharingBoxModal {
+  width: 60rem;
+  min-height: 30rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sharing-box-modal-hidden {
+  transform: translateY(-1rem);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  z-index: -1;
+  position: relative;
+}
+.sharing-box-modal-show {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s;
+}

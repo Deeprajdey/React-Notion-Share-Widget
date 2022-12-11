@@ -1,0 +1,61 @@
+.ShareToWeb {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+}
+h5 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+ion-icon[name="earth"] {
+  font-size: 3rem;
+  color: #868e96;
+}
+
+p {
+  color: #868e96;
+  font-size: 1.6rem;
+}
+.ShareToWeb__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ShareToWeb__left-details {
+  margin-left: 2rem;
+}
+.toggle-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-pill {
+  width: 7rem;
+  height: 3rem;
+  border-radius: 100px;
+  background-color: #e9ecef;
+  position: relative;
+  transition: all 0.2s;
+}
+.toggle-pill-active {
+  background-color: #74c0fc;
+  transition: all 0.2s;
+}
+.toggle-circle {
+  height: 2rem;
+  width: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 62%;
+  transition: all 0.2s;
+}
+.toggle-circle-active {
+  right: 10%;
+  transition: all 0.2s;
+}

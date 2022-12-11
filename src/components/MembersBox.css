@@ -1,0 +1,30 @@
+.border__blue {
+  border: 2px solid #74c0fc;
+}
+.MembersBox__desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 1.3rem auto;
+}
+.MembersBox__desc-left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.MembersBox__desc-left > img {
+  border-radius: 50%;
+  height: 2.5rem;
+}
+.MembersBox__desc-right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.MembersBox__desc-right > span {
+  font-size: 1.6rem;
+}
+.MembersBox__desc-right > ion-icon {
+  font-size: 1.6rem;
+}
