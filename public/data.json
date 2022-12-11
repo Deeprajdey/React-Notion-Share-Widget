@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "img": "./img1.jpg",
+    "name": "Wade Cooper",
+    "type": "persons",
+    "access": "No access"
+  },
+  {
+    "id": 2,
+    "img": "./img2.jpg",
+    "name": "Arlene Mccoy",
+    "type": "persons",
+    "access": "No access"
+  },
+  {
+    "id": 3,
+    "img": "./p.png",
+    "name": "Product",
+    "type": "groups",
+    "access": "No access"
+  },
+  {
+    "id": 4,
+    "img": "./e.png",
+    "name": "Engineering",
+    "type": "groups",
+    "access": "No access"
+  }
+]
